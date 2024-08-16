@@ -7,7 +7,7 @@ body {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #eab1b1;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -35,7 +35,7 @@ select {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #28a745;
+  background-color: #11872d;
   color: white;
   border: none;
   border-radius: 5px;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #4a9d5c;
 }
 
 .output-wrapper {
@@ -58,6 +58,6 @@ button:hover {
 }
 
 .output-wrapper > :last-child {
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
   padding: 8px;
 }

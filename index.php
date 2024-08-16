@@ -43,18 +43,12 @@
     </form>
 
     <div class="output-wrapper">
-      <div> Your Blood Concentration is:
-
+      <div>
       <?php
+      echo "Your Blood Alcohol Concentration (BAC) is: " . $roundedBAC. "%<br>";
       
-    if($bac = 0.08){
-      echo "It is safe to drive.";
-    }
-    else{
-      echo "No chance man.";
-    }
-    
-    ?>
-    </div>
+      ?>
+      </div>
+
 </body>
 </html>
