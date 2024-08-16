@@ -43,10 +43,18 @@
     </form>
 
     <div class="output-wrapper">
-      <div> Your Blood Concentration is: <span>0.08%</span></div>
-      <div> Safe to drive </div>
-    </div>
-  </div>
-</body>
+      <div> Your Blood Concentration is:
 
+      <?php
+      
+    if($bac = 0.08){
+      echo "It is safe to drive.";
+    }
+    else{
+      echo "No chance man.";
+    }
+    
+    ?>
+    </div>
+</body>
 </html>
